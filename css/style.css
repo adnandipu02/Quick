@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,button,span{
+	font-family: 'Roboto', sans-serif;
+}
+.header {
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #4444441f;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.headerdata{
+	display: flex;
+	justify-content: space-between;
+}
+.menuItem ul li {
+	margin-left: 20px;
+	list-style: none;
+	display: inline-block;
+	line-height: 60px;
+		
+}
+.menuItem ul li a{
+	color: #6b6b6b;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.bannerWrapper{
+	text-align: center;
+}
+.banner {
+    padding: 35px 0px;
+}
+
+.bannerInfo {
+    padding-bottom: 30px;
+}
+.bannerInfo h2{
+	font-size: 52px;
+	color: #0f2656;
+	margin-bottom: 15px;
+}
+.bannerInfo h2 span{
+	color: #008aff;
+}
+.bannerInfo p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #452058;;
+}
+
+.projects{
+	padding: 50px 0px;
+	    margin-bottom: 15px;
+}
+.projectWrapper{
+	display: flex;
+
+}
+.ProLeft,.Proright{
+	flex-basis: 50%;
+}
+.ProLeft{
+	text-align: right;
+	margin-right: 34px;
+
+}
+.ProLeft h2{
+	font-size: 50px;
+	color: #f15767;
+	
+}
+.ProLeft p{
+	line-height: 25px;
+	color: #452058;
+	font-size: 14px;
+	font-weight: 100;
+}
+.Proright{
+	text-align: left;
+}
+.Proright h2{
+	font-size: 50px;
+	color:#0f2656;
+	
+}
+.service{
+	display: flex;
+	margin-bottom: 45px;
+}
+.service img{
+	background-size: cover;
+}
+.box-1{
+	background: #fdebed;
+}
+.box-2{
+	background:#ebf9f4;
+}
+.box-3{
+	background:#fff7e8;
+}
+.box-1,.box-2,.box-3{
+	margin: 14px;
+	padding: 40px 22px;
+	width: 315px;
+}
+.service h3{
+	font-size: 18px;
+	padding: 5px 0px;
+	margin-bottom: 6px;
+	color: #0f2656;
+}
+.service p {
+    line-height: 20px;
+    font-size: 15px;
+    color: #49235dd1;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.footer{
+	background: #008aff;
+}
+.footerWrapper{
+	text-align: center;
+	padding: 30px 0px;
+	color: #9ed2ff;
+	font-size: 12px;
+}
+.footerWrapper span{
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: 'Roboto', sans-serif;
+}
